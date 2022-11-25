@@ -3,7 +3,7 @@ const Category = require("../models/CategoryModel");
 
 beforeAll(async () => {
   await mongoose.connect(
-    "mongodb+srv://mongo_user:aVr6Gz2HRTHkJQKT@cluster0.x3opa.mongodb.net/mern_database?retryWrites=true&w=majority",
+    "mongodb+srv://mongo_user:sBBFL0eZFtYPnS2L@cluster0.rsrojsi.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
